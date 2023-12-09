@@ -1,0 +1,20 @@
+.login-conatiner {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.create-acc-conatiner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.cta {
+  display: flex;
+  justify-content: space-between;
+}

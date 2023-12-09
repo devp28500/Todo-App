@@ -1,0 +1,4 @@
+.todo-conatiner-content {
+  display: flex;
+  flex-direction: column;
+}

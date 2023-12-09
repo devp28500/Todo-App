@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 0.75px solid #d9d9d9;
+}
+.header-label {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.cta {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}

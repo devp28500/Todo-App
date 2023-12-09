@@ -1,0 +1,69 @@
+.ag-theme-alpine {
+  --ag-header-height: 40px;
+  --ag-header-background-color: #ddbf12;
+  --ag-header-foreground-color: #263238;
+  --ag-borders: 0.75px solid;
+  --ag-border-color: rgb(5, 18, 24);
+  --ag-header-column-separator-display: block;
+  --ag-header-column-separator-height: 100%;
+  --ag-header-column-separator-width: 0.75px;
+  --ag-header-column-separator-color: rgb(5, 18, 24);
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.ag-theme-alpine .ag-cell {
+  border-width: 0.75px;
+  border-color: rgb(5, 18, 24);
+  border-left: none;
+  border-top: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background-color: #ffffe0;
+}
+.ag-theme-alpine .ag-cell:last-child {
+  border-right: none;
+}
+.ag-theme-alpine .ag-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 36px;
+  letter-spacing: 1.25px;
+  /* text-transform: uppercase; */
+}
+/*
+    needed for popup cell editor
+  */
+.ag-root-wrapper.ag-layout-auto-height {
+  overflow: visible !important;
+}
+/* .min-height-150 .ag-center-cols-clipper,
+  .min-height-150 .ag-center-cols-container {
+    min-height: 150px !important;
+  }
+  .min-height-0 .ag-center-cols-clipper,
+  .min-height-0 .ag-center-cols-container {
+    min-height: 0 !important;
+  } */
+
+.default .ag-center-cols-clipper,
+.default .ag-center-cols-container {
+  min-height: unset !important;
+}
+
+.compact .ag-center-cols-clipper,
+.compact .ag-center-cols-container {
+  min-height: 150px !important;
+}
+
+.comfortable .ag-center-cols-clipper,
+.comfortable .ag-center-cols-container {
+  min-height: 200px !important;
+}
+
+.ag-center-cols-clipper {
+  min-height: unset !important;
+}

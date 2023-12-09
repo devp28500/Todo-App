@@ -1,0 +1,28 @@
+.todo-content-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 2rem);
+  width: calc(100% - 2rem);
+  gap: 2rem;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+.todo-list-container {
+  overflow: hidden auto;
+  height: 100%;
+}
+.add-todo-cta {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+.add-todo-dialog-cta {
+  display: flex;
+  gap: 1rem;
+}
+.filter-container {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
