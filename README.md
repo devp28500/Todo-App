@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Todo Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple Todo web application with a frontend built using React.js and a backend developed using Node.js with Express. PostgreSQL is used as the database to store the Todo items.
 
-## Available Scripts
+## Project Structure
 
-In the project directory, you can run:
+The project is organized into two main folders:
 
-### `npm start`
+- **client**: Contains the frontend code written in React.js.
+- **server**: Contains the backend code written in Node.js with Express.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Before running the Todo app, make sure you have the following installed on your machine:
 
-### `npm test`
+- PostgreSQL: [Download and Install PostgreSQL](https://www.postgresql.org/download/)
+- Node.js: [Download and Install Node.js](https://nodejs.org/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Frontend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Open a terminal and navigate to the `client` folder:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    cd client
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install dependencies using either `yarn` or `npm`:
 
-### `npm run eject`
+    ```bash
+    # Using yarn
+    yarn
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    # Using npm
+    npm install
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Start the frontend application:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```bash
+    # Using yarn
+    yarn start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    # Using npm
+    npm start
+    ```
 
-## Learn More
+### Backend
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Open another terminal and navigate to the `server/src` folder:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```bash
+    cd server/src
+    ```
 
-### Code Splitting
+2. Go to the `users.js` file to modify PostgreSQL configurations such as database name, port number, user, and password.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Install backend dependencies:
 
-### Analyzing the Bundle Size
+    ```bash
+    npm install
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4. Start the backend server:
 
-### Making a Progressive Web App
+    ```bash
+    node server.js
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Usage
 
-### Advanced Configuration
+Once both the frontend and backend are running, you can access the Todo app in your browser at `http://localhost:3000`. The app allows you to create, edit, and delete Todo items.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Technologies Used
 
-### Deployment
+- Frontend: React.js
+- Backend: Node.js, Express
+- Database: PostgreSQL
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contributing
 
-### `npm run build` fails to minify
+Feel free to contribute to the project by submitting issues or pull requests. Your feedback is highly appreciated.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+
+This Todo web app is open-source and available under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code for your purposes.
