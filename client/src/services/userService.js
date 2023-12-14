@@ -1,9 +1,9 @@
 import apiService, { handleError } from "./apiService";
 const USER_ENDPOINTS = {
-  GET_USERS: "/users",
-  ADD_USER: "/adduser",
-  LOGIN: "/login",
-  RESET_PASSWORD: "/resetPassword",
+  GET_USERS: "/users/get/users",
+  ADD_USER: "/users/add/user",
+  LOGIN: "/users/login",
+  RESET_PASSWORD: "/users/reset/password",
 };
 const userServices = {
   getUsers: async () => {

@@ -1,10 +1,10 @@
 import apiService, { handleError } from "./apiService";
 const TODO_ENDPOINTS = {
-  GET_ALL_TODOS: "/todos",
-  ADD_TODO: "/add_todo",
-  DELETE_TODO: "/delete_todo",
-  UPDATE_IS_COMPLETED: "/updatecompleted",
-  FILTER_TODOS: "/filterTodos",
+  GET_ALL_TODOS: "/todos/find/todo",
+  ADD_TODO: "/todos/add/todo",
+  DELETE_TODO: "/todos/delete/todo",
+  UPDATE_IS_COMPLETED: "/todos/update/completed",
+  FILTER_TODOS: "todos/filter/todos",
 };
 
 const todoService = {
