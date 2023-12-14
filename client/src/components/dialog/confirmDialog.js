@@ -45,6 +45,7 @@ export const confirmDialog = ({
             }}
           />
           <Button
+            autoFocus={true}
             size="small"
             label={okButtonLabel}
             onClick={() => {
