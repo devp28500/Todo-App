@@ -54,7 +54,7 @@ Before running the Todo app, make sure you have the following installed on your 
     cd src/server
     ```
 
-2. Go to the `users.js` file to modify PostgreSQL configurations such as database name, port number, user, and password.
+2. Go to the `postgres.js` file to modify PostgreSQL configurations such as database name, port number, user, and password.
 
 3. Install backend dependencies:
 
